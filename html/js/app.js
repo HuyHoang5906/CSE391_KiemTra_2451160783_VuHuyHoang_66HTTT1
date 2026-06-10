@@ -22,11 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
             card.innerHTML = `
                 <div class="record-header">
                     <div class="record-title">
-                        🏢 ${item.name}
+                         ${item.name}
                     </div>
                     <span class="badge ${statusClass}">${item.status}</span>
                 </div>
-                <div class="record-unit">📍 ${item.unit}</div>
+                <div class="record-unit"> ${item.unit}</div>
                 <div class="record-desc">${item.desc}</div>
             `;
             listContainer.appendChild(card);
